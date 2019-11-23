@@ -67,7 +67,7 @@ namespace JokenPo {
                 AtualizarTela();
             } else if (rndNum == (int)JokenPo.Papel)
             {
-                txtComputador.Text = "Você Perdeu!Computador escolheu Papel.";
+                txtComputador.Text = "Você Perdeu! Computador escolheu Papel.";
                 imgComputador.SetImageResource(Resource.Drawable.papelwin);
             } else
             {
@@ -82,7 +82,7 @@ namespace JokenPo {
             int rndNum = rnd.Next(3);
 
             if (rndNum == (int)JokenPo.Pedra) {
-                txtComputador.Text = "Você Ganhou!Computador escolheu Pedra.";
+                txtComputador.Text = "Você Ganhou! Computador escolheu Pedra.";
 
                 imgComputador.SetImageResource(Resource.Drawable.papelwin);
 
@@ -90,7 +90,7 @@ namespace JokenPo {
                 AtualizarTela();
             } else if (rndNum == (int)JokenPo.Tesoura)
             {
-                txtComputador.Text = "Você Perdeu!Computador escolheu Tesoura.";
+                txtComputador.Text = "Você Perdeu! Computador escolheu Tesoura.";
                 imgComputador.SetImageResource(Resource.Drawable.tesourawin);
             }
             else
@@ -105,7 +105,7 @@ namespace JokenPo {
             int rndNum = rnd.Next(3);
 
             if (rndNum == (int)JokenPo.Papel) {
-                txtComputador.Text = "Você Ganhou!Computador escolheu Papel.";
+                txtComputador.Text = "Você Ganhou! Computador escolheu Papel.";
 
                 imgComputador.SetImageResource(Resource.Drawable.tesourawin);
 
