@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" >
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:id="@+id/imgPedra" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:id="@+id/imgPapel"
+			 />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:id="@+id/imgTesoura" />
+	</LinearLayout>
+	
+	<Button
+		android:text="Button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnJogar" />
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:id="@+id/imgComputador" />
+
+	<TextView
+		android:text=""
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtComputador" />
+		
+	<TextView
+		android:text="Placar: 0"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtPlacar" />
+
+	<Button
+		android:text="Estatisticas"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnEstatiticas" />
+
+</LinearLayout>
